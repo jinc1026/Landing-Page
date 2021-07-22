@@ -65,10 +65,7 @@
 	function scrollToSection(){
 		document.querySelector(this.getAttribute("data-section-id")).scrollIntoView({behavior:"smooth"});
 		header.classList.add("hide");
-		console.log(window.scrollY);
-		console.log(this.scrollTop);
 	};
-
 
 /**
  * End Main Functions
