@@ -23,7 +23,13 @@ body {
 h1 {
     font-family: 'Fira Sans', sans-serif;
     font-size: 3em;
-    margin: 2em 1rem;
+    margin-left: 3rem;
+}
+
+header > p {
+	font-family: 'Fira Sans', sans-serif;
+   font-size: 1.5rem;
+	margin-left: 3rem;
 }
 
 @media only screen and (min-width: 35em){
@@ -31,6 +37,11 @@ h1 {
         font-size: 7em;
         margin: 2em 4rem 1em;
     }
+	
+	header > p {
+		font-size: 3.5rem;
+		margin-left: 4rem;
+	}
 }
 
 h2 {
@@ -95,6 +106,10 @@ section {
     top: 0;
     width: 100%;
     z-index: 5;
+}
+
+.page__header.hide {
+	display: none;
 }
 
 /* Footer Styles */
